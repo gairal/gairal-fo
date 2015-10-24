@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue',helvetica, arial sans-serif;
+}
+
+#globalContainer .main, .header .inner, #globalFooter .inner {
+    max-width: 940px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#globalContainer .main {
+    color: #212121;
+}
+
+a {
+    color: #212121;
+}
+
+/***********************************************************************************************************************
+** CONTENT **
+***********************************************************************************************************************/
+#messageCompatibilityBox li {
+    position: relative;
+    display: block;
+    float: left;
+    *display: inline;
+	zoom: 1;
+    width: 24%;
+}
+
+
+#messageCompatibilityBox li:after {
+    content: ' ';
+    width: 1px;
+    height: 54px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: #d0cfcb;
+    display: block;
+}
+
+#messageCompatibilityBox h2,
+#messageCompatibilityBox p {
+    font-size: 20px;
+}
+
+#messageCompatibilityBox li.first:after {
+    width: 0;
+}
+
+#messageCompatibilityBox li a {
+    display: block;
+	border: none;
+}
+
+#messageCompatibilityBox .browserList {
+    margin-top: 55px;
+    text-align: center;
+}
+
+#messageCompatibilityBox .browserList img {
+    margin-bottom: 15px;
+	border: none;
+	width: 90%;
+}
+
+#messageCompatibilityBox .browserList img{
+	width: 100px;
+}
+
+
+/***********************************************************************************************************************
+** FOOTER **
+***********************************************************************************************************************/
+
+#globalFooter {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 84px;
+    background: #212121;
+    color: white;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+#footerNav {
+    margin-top: 50px;
+    padding-top: 5px;
+    border-top: 1px solid #6c6f70;
+    text-align: right;
+}
+
+#footerNav a {
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #6c6f70;
+}
+
+#footerNav a.last {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+#mobileButton{
+    display: none;
+    text-align: center;
+    margin: 40px auto auto auto;
+}
+
+#mobileButton a {
+    background-color: #f7b100;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+#mobileButton a:hover {
+    color: #000000;
+}
+
+
+
+
+@media screen and (max-width: 767px)
+{
+    #messageCompatibilityBox li {
+        width: 49%;
+        border: solid 1px #CCCCCC;
+    }
+    #messageCompatibilityBox li:after {
+
+        width: 0;
+    }
+}
+
+

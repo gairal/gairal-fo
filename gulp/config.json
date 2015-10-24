@@ -1,0 +1,52 @@
+{
+    "base": {
+        "src": "src/",
+        "build": "build/",
+        "compile": "compile/",
+        "test": "test/",
+        "vendor": "vendor/",
+        "static": "static/",
+        "mocks": "mocks/"
+    },
+    "path": {
+        "sass": "assets/scss/",
+        "css": "assets/css/",
+        "images": "assets/img/",
+        "fonts": "assets/fonts/",
+        "js": "app/",
+        "i18n": "i18n/",
+        "root": "root/"
+    },
+    "files": {
+        "index": "index.html",
+        "html": "**/*.html",
+        "tmpl": "**/*.tmpl",
+        "sass": "app.scss",
+        "sassAll": "**/*.scss",
+        "css": "**/*.css",
+        "js": "**/*.js",
+        "fonts": "**",
+        "images": "{,*/}*.{png,jpg,jpeg,gif}",
+        "i18n": "**",
+        "root": "**",
+        "hidden": ".**",
+        "static": "**/*.*",
+        "mocks": "**"
+    },
+    "vendor":{
+        "js": [],
+        "css": [],
+        "assets": []
+    },
+    "env": {
+        "prod": {
+            "api_url": "//gairal.com"
+        },
+        "dev": {
+            "api_url": "//staging.gairal.com"
+        },
+        "mock": {
+            "api_url": "//localhost:3000/mocks"
+        }
+    }
+}

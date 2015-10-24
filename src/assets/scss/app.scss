@@ -1,0 +1,26 @@
+@import 'common/_variables.scss';
+@import 'common/_includes.scss';
+@import 'common/_mixins.scss';
+
+/* ==============================
+    Core
+=================================== */
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  color: $font-color;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  padding-top: 35px;
+}
+
+
+/* ==============================
+    Specific Code
+=================================== */
+.btn {
+    padding: 50px 28px;
+    font-size:32px;
+}

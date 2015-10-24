@@ -1,0 +1,21 @@
+{
+  "name": "gairal",
+  "description": "Gairal Portal",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "_*",
+    "docs-assets",
+    "examples",
+    "/fonts",
+    "js/tests",
+    "CNAME",
+    "CONTRIBUTING.md",
+    "composer.json",
+    "*.html"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  },
+  "devDependencies": {}
+}
