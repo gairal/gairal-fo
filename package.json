@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "browser-sync": "~2.9.11",
-    "require-dir": "~0.3.0",
+    "require-dir": "~0.3.2",
     "run-sequence": "~1.1.4",
     "gulp": "~3.9.0",
     "del": "~2.0.2",
@@ -38,13 +38,7 @@
     "gulp-notify": "~2.2.0",
     "gulp-file-include": "~0.13.7",
     "gulp-replace": "~0.5.4",
-    "gulp-scp2": "~0.2.0",
-    "vinyl-ftp": "~0.4.5",
-    "gulp-jasmine": "~2.1.0",
-    "karma": "~0.13.11",
-    "karma-jasmine": "~0.3.6",
-    "karma-phantomjs-launcher": "~0.2.1",
-    "karma-spec-reporter": "~0.0.20"
+    "gulp-scp2": "~0.2.0"
   },
   "scripts": {
     "postinstall": "bower install"
